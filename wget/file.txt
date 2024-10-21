@@ -1,0 +1,19 @@
+What is wget?
+wget is a non-interactive command-line utility primarily used for downloading files from the web. It works well with HTTP, HTTPS, and FTP protocols. Its simplicity and ability to handle recursive downloads make it ideal for tasks like downloading entire websites or large files.
+
+Its basic syntax is:
+
+wget [options] [URL]
+
+Basic Examples of wget:
+Download a Single File:
+wget https://example.com/file.zip
+
+Download a File with a Different Name:
+wget -O newname.zip https://example.com/file.zip
+
+Resume a Download:
+wget -c https://example.com/largefile.zip
+
+Download Files Recursively:
+wget -r https://example.com/directory/

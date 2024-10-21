@@ -1,0 +1,10 @@
+What is curl?
+curl stands for "Client URL" and is more versatile than wget. It can download and upload files, and even interact with APIs. Unlike wget, curl is not just a download tool but also a full-fledged data transfer utility supporting a wide range of protocols (HTTP, HTTPS, FTP, SFTP, SCP, etc.).
+
+Basic Usage:
+curl [options] [URL]
+
+Common Options for curl:
+Download a File : curl -O https://example.com/file.zip
+Resume Downloads: curl -C — -O https://example.com/largefile.zip
+Download and Save as Different Filename: curl -o myfile.zip https://example.com/file.zip
